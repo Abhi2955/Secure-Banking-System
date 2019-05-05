@@ -1,0 +1,66 @@
+#services {
+    background: #eee;
+}
+
+@media screen and (max-width: 1050px)
+.section {
+    padding: 4em 0;
+}
+@media screen and (max-width: 1024px)
+.container2 {
+    width: 93%;
+}
+@media screen and (max-width: 1280px)
+.container2 {
+    width: 88%;
+}
+@media screen and (max-width: 1366px)
+.container2 {
+    width: 83%;
+}
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+}
+.container2 h3.title-txt {
+    text-align: left;
+    margin-bottom: 0.5em;
+}
+@media screen and (max-width: 768px)
+h3.title-txt {
+    font-size: 2.6em;
+}
+@media screen and (max-width: 900px)
+h3.title-txt {
+    font-size: 2.8em;
+}
+h3.title-txt span {
+    color: #026fbf;
+}
+@media screen and (max-width: 800px)
+.container2 h5 {
+    font-size: 1.6em;
+}
+@media screen and (max-width: 900px)
+.container2 h5 {
+    font-size: 1.7em;
+}
+@media screen and (max-width: 991px)
+.container2 h5 {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 1050px)
+.container2 h5 {
+    font-size: 1.8em;
+}
+@media screen and (max-width: 1080px)
+.container2 h5 {
+    font-size: 1.9em;
+}
+.container2 h5 {
+    font-size: 2em;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+}

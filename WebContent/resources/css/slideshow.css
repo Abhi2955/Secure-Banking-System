@@ -1,0 +1,78 @@
+
+
+.mySlide
+{
+	background-color:#F00;
+	height:400px;
+	font-size:10px;
+	text-align:center;
+	display:none;
+	padding:50px;
+	
+}
+p
+{
+	font-size:25px;
+	margin-left:10%;
+}
+h2
+{
+	color:#000;
+	text-decoration:underline;
+	margin-left:10%;
+	margin-top:10%;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255,105,180,0.4);
+  color: white;
+}
+.dot-container {
+    text-align: center;
+    padding: 18px;
+    background:#ffc0cb;
+	margin-top:28%;
+	margin-left:35%;
+	position:absolute;
+	width:600px;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:#F06;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color:#F06;
+}
+.mySlides h2
+{
+	text-decoration:none
+}
+.author
+{
+	color:#00F;
+}

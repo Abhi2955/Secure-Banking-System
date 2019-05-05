@@ -1,0 +1,144 @@
+.parallax1 {
+  /* The image used */
+  
+
+ /* Set a specific height */
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 1050px)
+.section {
+    padding: 4em 0;
+	
+}
+@media screen and (max-width: 768px)
+h2.content {
+    font-size: 2.6em;
+}
+@media screen and (max-width: 900px)
+h2.content{
+    font-size: 2.8em;
+}
+@media screen and (max-width: 800px)
+.content{
+    width: 90%;
+}
+@media screen and (max-width: 991px)
+.content {
+    width: 85%;
+}
+@media screen and (max-width: 1024px)
+.content {
+    width: 77%;
+}
+@media screen and (max-width: 1080px)
+.content {
+    width: 74%;
+}
+@media screen and (max-width: 1440px)
+.content {
+    width: 61%;
+}
+.parallax2 {
+  /* The image used */
+  
+
+ /* Set a specific height */
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 1024px)
+.content2 {
+    width: 93%;
+}
+@media screen and (max-width: 1280px)
+.content2 {
+    width: 88%;
+}
+@media screen and (max-width: 1366px)
+.content2 {
+    width: 83%;
+}
+
+ hr
+{
+	width:80%;
+	color:#00C;
+	
+}
+.content
+{
+	/*background-color:#FFECFF	;*/
+	margin-top:0px;
+	position:absolute;
+	border-top: 1px solid #e0e0e0;
+	      border-bottom: 1px solid #e0e0e0;
+}
+.content h2
+{
+	margin-top:3%;
+	text-align:center;
+	color:#F69
+}
+.content p
+{
+	text-align:center;
+	margin-left:25%;
+	width:50%;
+}
+.content2
+{
+
+	margin-top:0px;
+	position:absolute;
+	border-top: 1px solid #e0e0e0;
+	      border-bottom: 1px solid #e0e0e0;
+}
+.content2 p
+{
+	width:100%;
+	
+}
+@media screen and (max-width: 800px)
+.content2 p {
+    font-size: 1.6em;
+}
+@media screen and (max-width: 900px)
+.content2 p {
+    font-size: 1.7em;
+}
+@media screen and (max-width: 991px)
+.content2 p {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 1050px)
+.content2 p {
+    font-size: 1.8em;
+}
+@media screen and (max-width: 1080px)
+.content2 p{
+    font-size: 1.9em;
+}
+.content2 h2
+{
+	text-decoration:none;
+}
+@media screen and (max-width: 768px)
+h2.content2 {
+    font-size: 2.6em;
+}
+@media screen and (max-width: 900px)
+h2.content2 {
+    font-size: 2.8em;
+}
+.img
+{	position:absolute;
+	margin-top:25%;
+	margin-left:5%;
+}
